@@ -1,0 +1,13 @@
+{{ 'styles.css' | asset_url | stylesheet_tag }}
+
+<div class="promo-banner">
+  <p>🎉 Free Shipping on All Orders! 🎉</p>
+</div>
+
+{% schema %}
+{
+  "name": "Promotional Banner",
+  "target": "section",
+  "settings": []
+}
+{% endschema %}
